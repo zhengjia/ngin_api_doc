@@ -17,9 +17,9 @@ Base URL
 
 Application Authentication
 ------------------------------
-Each application that uses the NGIN API is given an API token which identifies them as the source of the request. This API token is required for all NGIN API calls. The API token should be set in the NGIN-API-TOKEN HTTP header of each request. The API token is the only authentication needed for get requests returning public information.
+Each application that uses the NGIN API is given an API token which identifies them as the source of the request. This API token is required for all NGIN API calls. The API token should be set in the NGIN-API-TOKEN HTTP header of each request. The API token is the only authentication needed for get requests returning public information. API access is granted based on sites; an API token may be granted access to one or multiple sites.
 
-To request an API token please contact [NGIN support](mailto:support@tstmedia.com)
+To request an API token please contact [NGIN support](mailto:support@tstmedia.com). Please include which sites you need API access to, and if you need a new site on sandbox for testing.
 
 User Authentication
 -------------------
