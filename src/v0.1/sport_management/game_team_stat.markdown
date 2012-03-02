@@ -7,7 +7,7 @@ Returns team game stats filtering on one or more of game_id, team_id, and subsea
 
 Actions
 -------
-**Index** `GET /game_team_stats?stat_module_id=:stat_module_id&game_id=:game_id&team_id=:team_id&subseason_id=:subseason_id`
+**INDEX** `GET /game_team_stats?stat_module_id=:stat_module_id&game_id=:game_id&team_id=:team_id&subseason_id=:subseason_id`
 
 * Optional paramter: filters. See [api filtering]() for more details
  

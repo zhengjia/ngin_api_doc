@@ -7,7 +7,7 @@ Returns player game stats filtering on one or more of the parameters game_id, pl
 
 Actions
 -------
-**Index** `GET /game_player_stats?stat_module_id={?stat_module_id, game_id, team_id, subseason_id, player_id}`
+**INDEX** `GET /game_player_stats?stat_module_id={?stat_module_id, game_id, team_id, subseason_id, player_id}`
 
 Attributes
 ----------

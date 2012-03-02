@@ -7,21 +7,21 @@ Game holds all pertinent information for a sporting event.
 
 Actions
 -------
-**index** `GET /games?subseason_id={?subseason_id, division_instance_id, team_instance_id, page, before, after, today, filters}
+**INDEX** `GET /games?subseason_id={?subseason_id, division_instance_id, team_instance_id, page, before, after, today, filters}
 * The results are paginated at 100 records per page. A page number is required (starting from 1).
 * Requires one of the following parameters `subseason_id`, `division_instance_id`, `team_instance_id`
 * `page` is required
 * `before` is inclusive, formatted as mm-dd-yyyy
 * `after` is inclusive, formatted as mm-dd-yyyy
 
-**Show** `GET /games/{game_id}`
+**SHOW** `GET /games/{game_id}`
 
-**Create** `POST /games`
+**CREATE** `POST /games`
 * See attributes below
 
-**Update** `POST /games/{game_id}`
+**UPDATE** `POST /games/{game_id}`
 
-**Delete** `DELETE /games/{game_id}`
+**DELETE** `DELETE /games/{game_id}`
 
 Associations
 ------------
