@@ -66,33 +66,33 @@ Attributes
 
 Officials hash attributes
 -------------------------
-id	integer	X	Unique id assigned by NGIN
-name	string	X	Name of the official
-official_type_id	integer	X	id of the type of official
-created_at	datetime		Timestamp of creation date
-updated_at	datetime		Timestamp of last update
+**id**	*(integer)*	Unique id assigned by NGIN  
+**name**	*(string)*	Name of the official  
+**official_type_id**	*(integer)*	id of the type of official  
+**created_at** *(datetime)*	Timestamp of creation date  
+**updated_at** *(datetime)*	Timestamp of last update  
 
 Extra_game_details hash attributes
 ----------------------------------
-id	integer	X	Unique id assigned by NGIN
-weather_conditions	string		Description of the weather conditions for the game
-wind_speed	integer		Wind speed for the game
-wind_speed_units	string		Units the wind speed is measured in
-wind_direction	string		Direction the wind was blowing during the game
-temperature	integer		Temperature during the game
-temperature_unites	string		Units the temperature is measured in
-attendance	integer		Number of spectators attending the game
-sellout	boolean		Whether or not the game sold out
-night_game	boolean		Whether or not the game was played at night
-neutral_field	boolean		Whether or not the game was played on a neutral field
-natural_surface	boolean		Whether or not the game was played on a natural surface
-created_at	datetime		Timestamp of creation date
-updated_at	datetime		Timestamp of last update
+**id** *(integer)*	Unique id assigned by NGIN  
+**weather_conditions**	*(string)*		Description of the weather conditions for the game  
+**wind_speed**	*(integer)*		Wind speed for the game  
+**wind_speed_units**	*(string)*		Units the wind speed is measured in  
+**wind_direction**	*(string)*		Direction the wind was blowing during the game  
+**temperature**	*(integer)*		Temperature during the game  
+**temperature_unites**	*(string)*		Units the temperature is measured in  
+**attendance**	*(integer)*		Number of spectators attending the game  
+**sellout**	*(boolean)*		Whether or not the game sold out  
+**night_game**	*(boolean)*		Whether or not the game was played at night  
+**neutral_field**	*(boolean)*		Whether or not the game was played on a neutral field  
+**natural_surface**	*(boolean)*		Whether or not the game was played on a natural surface  
+**created_at**	*(datetime)*	Timestamp of creation date  
+**updated_at** *(datetime)*	Timestamp of last update
 
 Derived fields are  not directly mapped to a database column; they are read-only.
 
 Example Requests
----------------- 
+----------------
 
 **Get First Page of All Games for Subseason 1**
 
