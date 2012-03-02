@@ -8,7 +8,7 @@ Game holds all pertinent information for a sporting event.
 Actions
 -------
 **INDEX** `GET /games?subseason_id={?subseason_id, division_instance_id, team_instance_id, page, before, after, today, filters}
-* The results are paginated at 100 records per page. A page number is required (starting from 1).
+* The results are paginated at 100 records per page. A page number is required (starting from 1)
 * Requires one of the following parameters `subseason_id`, `division_instance_id`, `team_instance_id`
 * `page` is required
 * `before` is inclusive, formatted as mm-dd-yyyy
