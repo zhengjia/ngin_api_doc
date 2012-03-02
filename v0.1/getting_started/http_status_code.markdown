@@ -1,3 +1,6 @@
+HTTP Status Code
+================
+
 We return the following status code that can be used for debugging. Along with the status code, we supply a simple string to describe the error
 
 **200** OK - Successful HTTP requests
