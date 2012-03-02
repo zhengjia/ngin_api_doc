@@ -25,7 +25,7 @@ Associations
 ------------
 Has many [Layout Columns](layout_column.html)
 
-Attributes
+Resource Attributes
 ----------
 **id** *(integer)* Unique id assigned by NGIN
 
@@ -47,11 +47,61 @@ Attributes
 
 **updated_at** *(datetime)*	Timestamp of last update
 
-Example Requests
+Examples
 ----------------
 * Show Layout Container 1
 
-    curl -H "NGIN-API-TOKEN: your_token_value" -H "NGIN-API-VERSION: 0.1" "https://api.api-sandbox.ngin.com/layout_containers/1"
+Request:
+
+    curl -H "NGIN-API-TOKEN: your_token_value" -H "NGIN-API-VERSION: 0.1" "https://api.api-sandbox.ngin.com/layout_containers/3647961"
+    
+Response:
+    
+    {
+      "created_at": "2012-02-26T12:05:08-08:00",
+      "position": 1,
+      "custom_css_class": null,
+      "mirror_target_id": null,
+      "id": 3647961,
+      "layout_columns": [
+        {
+          "position": 1,
+          "page_elements": [
+            {
+              "position": 1,
+              "custom_css_class": null,
+              "content_locked": false,
+              "created_on": "2012-02-26T12:05:09-08:00",
+              "id": 5272481,
+              "layout_column_id": 4403948,
+              "element_id": 175787,
+              "element_type": "EventAggregator",
+              "element": {
+                "number_to_show": 5,
+                "location": null,
+                "display_format": "five_day",
+                "match_option": 0,
+                "id": 175787,
+                "title": "Fantastic Feet Calendar",
+                "start_date": null,
+                "end_date": null
+              },
+              "dependent_type": null,
+              "updated_on": "2012-02-26T12:05:09-08:00",
+              "mirror_enabled": false,
+              "element_locked": false
+            }
+          ],
+          "id": 4403948
+        }
+      ],
+      "name": null,
+      "locked": false,
+      "updated_at": "2012-02-26T12:05:08-08:00",
+      "layout_type": "oneColumn"
+    }
+    
+    The *layout_columns* association is automatically returned.
 
 * Create a Layout Container
 
