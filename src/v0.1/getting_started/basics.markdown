@@ -8,7 +8,7 @@ Overview
 * All NGIN API calls are required to be made over SSL for security
 * The NGIN API is REST
 * [URI-Template](http://datatracker.ietf.org/doc/draft-gregorio-uritemplate/?include_text=1) is used for all URIs. An overview for URI-Template is given in [faq 1](faq.html#faq1)
-* [Rails parameter convention](http://guides.rubyonrails.org/action_controller_overview.html#parameters) in sending hash and array parameters is adopted in the documentation. An overview for Rails parameter convention is given in [faq 2](faq.html#faq2)
+* The NGIN API accepts request parameters following [Rails parameter convention](http://guides.rubyonrails.org/action_controller_overview.html#parameters). An overview for Rails parameter convention is given in [faq 2](faq.html#faq2)
 
 Environments
 ------------
