@@ -32,4 +32,4 @@ Example Requests
 ----------------
 Filtering games that have subseason_id 46241, stat_module_id 4ec1dea70a11c10fdb000014,  and the stats are updated after 2011-12-04 06:53:05
 
-curl --user username:password -H "NGIN-API-TOKEN: API_TOKEN" -H "NGIN-API-VERSION: 0.1" -g "https://api.api-sandbox.ngin.com/game_team_stats?subseason_id=46241&stat_module_id=4ec1dea70a11c10fdb000014&filters[rules][][field]=updated_at&filters[rules][][operator]=gt&filters[rules][][value]=2011-12-04%2006:53:05"
+    curl --user username:password -H "NGIN-API-TOKEN: API_TOKEN" -H "NGIN-API-VERSION: 0.1" -g "https://api.api-sandbox.ngin.com/game_team_stats?subseason_id=46241&stat_module_id=4ec1dea70a11c10fdb000014&filters[rules][][field]=updated_at&filters[rules][][operator]=gt&filters[rules][][value]=2011-12-04%2006:53:05"
